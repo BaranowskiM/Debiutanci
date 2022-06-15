@@ -1,0 +1,376 @@
+@font-face{
+    font-family: 'Lobster';
+    src: url('Lobster-Regular.ttf');
+}
+@font-face{
+    font-family: 'AlfaSlab';
+    src: url('AlfaSlabOne-Regular.ttf');
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+html{
+    
+    font-size: 62.5%;
+   
+}
+
+body {
+    
+    margin: 0px;
+    padding: 0px;
+  
+  
+}
+
+h1 {
+    position: absolute;
+    display: block;
+    font-size: 7rem;
+    font-family: 'AlfaSlab';
+    top: 0px;
+    right: -50%;
+    left: -50%;
+  
+}
+
+
+.MainHeader h1{
+    top: 10px;
+}
+
+.MainHeader ul {
+    clear: left;
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-size: 3.5rem;
+    word-spacing: 60px;
+    font-family: 'Lobster';
+    width: 1070px;
+    margin: 10px;
+    left: 50%;
+    text-align: center;
+    font-weight: bolder;
+    top: 110px;
+}
+
+.MainHeader ul li{
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    right: 50%;
+}
+
+.MainHeader ul li a{
+    display: block;
+    margin: 0 0 0 1px;
+    padding: 3px 30px;
+}
+
+#noSpace {
+    word-spacing: 0px;
+    
+}
+
+h3 {
+    font-size: 3.5rem;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.MainHeader{
+    position: relative;
+    text-align: center;
+    background-color: #108763;
+    height: 170px;
+    width: 100%;
+}
+
+.MainInformation{
+    background-color: #F2F2F2;
+    font-size: 2.5rem;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-top: 30px;    
+}
+
+.MainInformation img{
+    width: 320px;
+    margin: 0 auto 5px auto;
+    
+}
+
+
+.LeftMenu {
+    top: 200px;
+    width: 250px;
+    height: 500px;
+    background-color: #B2383F;
+    position: absolute;
+    font-size: 4.5rem;
+    //line-height: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.LeftMenuKontakt {
+    top: 200px;
+    width: 250px;
+    height: 500px;
+    background-color: #B2383F;
+    position: absolute;
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.LeftMenuKontakt img{
+    margin-top: 20px;
+    width: 50px;
+}
+
+.LeftMenuAboutUs {
+    top: 200px;
+    width: 250px;
+    height: 500px;
+    background-color: #B2383F;
+    position: absolute;
+    font-size: 1.9em;
+    text-align: center;
+    margin: 0px;
+}
+
+.sponsors {
+    position: absolute;
+    top: 200px;
+    right:0px;
+    width: 250px;
+    height: 500px;
+    background-color: #108763;
+    font-weight: bolder;
+}
+
+#blokman {
+    position: absolute;
+    clip: rect(60px, auto, 170px, auto);
+    width: 240px;
+    margin-top: -50px;
+    margin-left: 5px;
+    
+}
+
+#merrid {
+        margin-top: 140px;
+        width: 240px;
+        margin-left: 5px;
+        
+}
+
+#mail img{
+    margin-top: 20px;
+    border-color: black;
+    line-height: 30px;    
+}
+
+.LeftMenuKontakt img{
+    width: 90px;
+}
+
+h2 a{
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+h2 a:visited {
+    color: black;
+   
+}
+
+h2 a:hover{
+    background-color: yellow;
+    border: 5px solid yellow;
+    border-width: 0px;
+}
+
+.activeBar {
+    text-decoration:underline 5px;
+    margin: 0 30px;
+  
+}
+
+#atak{
+    position: absolute;
+    width: 130px;
+    right: 40px;
+    top: 5px;
+}
+
+#atakReverse {
+    position: absolute;
+    width: 130px;
+    left: 40px;
+    top: 5px;
+}
+
+#years{
+    margin-top: 10px;
+    line-height: 60px;
+    
+}
+
+
+#years a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+#years a:visited {
+    color: black;
+}
+
+#years a:hover{
+  /*-webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);*/
+  transform: scale(1.2);
+} /* powiększenie */
+
+
+/*
+#years a:hover {
+  animation: bounce 0s;
+}
+ - podskakiwanie */
+
+/*
+#years a:hover {
+  transform: skew(-10deg);
+}
+ - przykrzywienie */
+
+/*
+#years a{
+  opacity:0.5;
+}
+
+#years a:hover{
+     opacity:1;
+}
+- przezroczystość */
+
+/*
+#years a{
+    display: inline-block;
+    transform-style: preserve-3d;
+}
+
+
+#years a:after{
+    top: -100%;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  background: #ff7a59;
+  border-radius: 5px;
+  content: 'Flipped';
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+
+#years a:hover {
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%);
+}
+ - odwrócenie */
+
+#years li{
+    display: block;
+    text-align: center;
+}
+
+td { 
+    border: 1px solid black; 
+    padding: 5px;
+    text-align: center
+    
+} 
+
+table {
+    border-spacing: 0px;
+    margin: 0px 5px 10px 5px;
+}
+
+.Players img{
+    position: relative;
+    width: 250px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Players {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.Photos {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+   justify-content: space-around;
+  }
+
+.Photos img:hover{
+   transform: scale(2.0);
+    z-index: 1;
+    text-align: center;
+    display: block;
+    position: relative;  
+    transition-delay: 2.1s;
+   /* position: absolute;
+    width: 40%;
+     display:block;
+  z-indexx:99;
+    height: auto;
+    
+    left:50%;
+    transform: translateX(-50%);
+    */
+}
+
+.checkbox{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 200;
+    right: 6px;
+    top: 6px;
+}
+
+#PlayerPhotoPlace{
+    position: relative;
+}
